@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>La Bella Italia - Restaurante</title>
+  <link rel="stylesheet" href="estilos.css" />
+</head>
+
+<body>
+  <header class="header clearfix">
+    <div class="logo">
+      <img src="imagenes/logo-2.png" alt="" />
+    </div>
+
+    <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+
+    <label for="nav-toggle" class="hamburger">
+      <span></span>
+    </label>
+
+    <!-- 📱 Navegación con X para cerrar -->
+    <nav class="nav">
+      <!-- <label for="nav-toggle" class="close-nav">×</label> -->
+      <a href="#inicio">Inicio</a>
+      <a href="#menu">Menú</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+
+    <label for="nav-toggle" class="menu-overlay"></label>
+  </header>
+
+  <section class="hero" id="inicio">
+    <div class="hero-content">
+      <h1>Auténtica Cocina Italiana</h1>
+      <p>Sabores tradicionales con ingredientes frescos desde 1985</p>
+      <a href="#menu" class="btn">Ver Nuestro Menú</a>
+    </div>
+  </section>
+
+  <section class="menu-destacado" id="menu">
+    <h2 class="section-title">Nuestros Platos Destacados</h2>
+    <div class="menu-grid">
+      <div class="menu-item">
+        <img src="imagenes/margarita.jpg" alt="Pizza Margherita" />
+        <h3>Pizza Margherita</h3>
+        <p>
+          Clásica pizza con tomate, mozzarella fresca, albahaca y aceite de
+          oliva virgen extra.
+        </p>
+        <div class="precio">$25.900</div>
+      </div>
+
+      <div class="menu-item">
+        <img src="imagenes/carbonara.jpg" alt="Pasta Carbonara" />
+        <h3>Pasta Carbonara</h3>
+        <p>
+          Espaguetis con huevo, queso pecorino, panceta y pimienta negra
+          recién molida.
+        </p>
+        <div class="precio">$22.900</div>
+      </div>
+
+      <div class="menu-item">
+        <img src="imagenes/lasagna.jpg" alt="Lasagna" />
+        <h3>Lasagna della Casa</h3>
+        <p>
+          Capas de pasta con salsa bolognesa, bechamel y quesos gratinados al
+          horno.
+        </p>
+        <div class="precio">$28.900</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sobre-nosotros" id="nosotros">
+    <div class="sobre-contenido">
+      <div class="sobre-texto">
+        <h2>Nuestra Historia</h2>
+        <p>
+          Desde 1985, La Bella Italia ha sido el hogar de la auténtica cocina
+          italiana en el corazón de la ciudad. Nuestra pasión por los sabores
+          tradicionales y los ingredientes frescos nos ha convertido en el
+          restaurante de confianza para las familias.
+        </p>
+        <p>
+          Cada plato es preparado con amor y dedicación, siguiendo recetas
+          familiares que han pasado de generación en generación.
+        </p>
+        <a href="#contacto" class="btn">Conoce Más</a>
+      </div>
+      <div class="sobre-imagen">
+        <img src="imagenes/historia.jpg" alt="Interior del restaurante" />
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer" id="contacto">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>📍 Ubicación</h3>
+        <p>Av. Providencia 1234</p>
+        <p>Lima, Santiago de Surco</p>
+        <p>📞 +51 999 999 999</p>
+      </div>
+
+      <div class="footer-section">
+        <h3>🕒 Horarios</h3>
+        <p>Lunes a Jueves: 12:00 - 23:00</p>
+        <p>Viernes a Sábado: 12:00 - 24:00</p>
+        <p>Domingo: 12:00 - 22:00</p>
+      </div>
+
+      <div class="footer-section">
+        <h3>📧 Contacto</h3>
+        <p>info@labellaitalia.pe</p>
+        <p>reservas@labellaitalia.pe</p>
+        <p>🌐 www.labellaitalia.pe</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2025 La Bella Italia. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+</body>
+
+</html>
